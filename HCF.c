@@ -2,9 +2,9 @@
 #include <math.h>
 int main()
 {
-  int num1=87,num2=99,hcf=1;
-  //printf("Enter number\n");
-  //scanf("%d %d",&num1,num2);
+  int num1,num2,hcf=1;
+  printf("Enter number\n");
+  scanf("%d %d",&num1,num2);
   int least=num1<num2?num1:num2;
  for(int i=2;i<=least;i++)
  {
